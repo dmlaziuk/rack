@@ -7,7 +7,7 @@ class RackApp
   def call(env)
     status, header, body = @app.call(env)
     res = Rack::Response.new(body, status, header)
-    res.write 'Hello, lobster!'
+    res.write "<p>Hello, lobster!</p>\n"
     res.finish
   end
 end
