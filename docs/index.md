@@ -100,7 +100,7 @@ Connection: close
 ```
 * for `GET /` request response is:
 
-```
+```html
 HTTP/1.1 200 OK
 Content-Length: 615
 Server: WEBrick/1.3.1 (Ruby/2.4.1/2017-03-22)
@@ -126,7 +126,7 @@ Connection: close
 
 * for `POST /` request response is:
 
-```
+```html
 HTTP/1.1 200 OK
 Content-Length: 615
 Server: WEBrick/1.3.1 (Ruby/2.4.1/2017-03-22)
