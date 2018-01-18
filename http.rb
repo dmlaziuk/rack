@@ -8,5 +8,5 @@ end
 request "OPTIONS * HTTP/1.1\r\n\r\n"
 request "HEAD / HTTP/1.1\r\nHost: localhost\r\nConnection: Close\r\n\r\n"
 request "GET / HTTP/1.1\r\nHost: localhost\r\nConnection: Close\r\n\r\n"
-request "POST / HTTP/1.1\r\nHost: localhost\r\nContent-Length: 5\r\nConnection: Close\r\n\r\nPOST\n"
+request "POST / HTTP/1.1\r\nHost: localhost\r\nContent-Length: 6\r\nConnection: Close\r\n\r\nPOST\r\n"
 
